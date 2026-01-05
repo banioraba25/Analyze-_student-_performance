@@ -5,7 +5,7 @@ weakCount = 0
 goodCount = 0
 
 for score in scores:
-    if score < threshold:
+    if score <= threshold:
         weakCount += 1
     else:
         goodCount += 1
