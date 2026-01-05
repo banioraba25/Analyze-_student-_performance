@@ -8,7 +8,8 @@ for score in scores:
     if score < threshold:
         weakCount += 1
     else:
-        goodCount += 1
+    goodCount += 1
+    print("Good performance detected")
 
 print("Number of Weak modules:", weakCount)
 print("Number of Good modules:", goodCount)
